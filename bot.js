@@ -7,7 +7,7 @@ console.log("Welcome Again !");
   member.createDM().then(function (channel) {
   return channel.send(`
 **
-سلام عليكم يا قلبي 
+
 لو سمحت طالبكــ طلب تــكفـــا ادخل السيرفر
                                [ https://discord.gg/wFeyH3 ] 
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
@@ -19,7 +19,7 @@ A7MD.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`
 **
-سلام عليكم يا قلبي 
+
 لو سمحت طالبكــ... طلب تكفا ادخل السيرفر
                                [ https://discord.gg/wFeyH3 ] 
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
