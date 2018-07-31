@@ -5,7 +5,7 @@ console.log("Welcome Again !");
  
  A7MD.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`
+  return channel.send(
 **
 
 لو سمحت طالبكــ طلب تــكفـــا ادخل السيرفر
@@ -17,7 +17,7 @@ console.log("Welcome Again !");
  
 A7MD.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`
+  return channel.send(
 **
 
 لو سمحت طالبكــ... طلب تكفا ادخل السيرفر
