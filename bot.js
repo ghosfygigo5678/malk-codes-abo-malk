@@ -281,7 +281,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    });
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['Music'];	
+    var setGame = ['Music،%1play'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
